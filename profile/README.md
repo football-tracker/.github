@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Fofh • Accueil">
+    <meta property="og:description" content="Site de présentation pour mon github.">
+    <meta property="og:site_name" content="FofhGit">
+    <meta property="og:image" content="https://fofhgit.github.io/assets/img/sasuke.jpg">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <title>FofhGit • Accueil</title>
+    
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div id="nav">
+        <nav>
+            <span><a class="logo" href="https://fofhgit.github.io"><img src="./assets/img/sasuke-naruto.gif" alt="" srcset="" style="width: 80px;height: 80px;"></a></span>
+            <ul>
+                <li>
+                    <h1>
+                        <a href="#">Accueil</a>
+                    </h1>
+                </li>
+                <li>
+                    <h1>
+                        <a href="./my-projects.html">Mes Projets</a>
+                    </h1>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Present -->
+    <h1 id="dev">
+        Présentation de mon GitHub :
+    </h1>
+    <h2 id="dev"> Je suis un développeur en <span class="js">JavaScript</span> / <span class="html">HTML</span> / <span class="css">CSS</span></h2>
+    <h3 id="p">
+        Voici le site de présentation de mon <a href="https://github.com/fofhgit?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </h3>
+    <!-- Copyright -->
+    
+    <div id="copy">
+        <h4>
+            <p>
+            ©️ Fofh 2022 - 2023
+            </p>
+        </h4>
+    </div>
+
+    <!-- Scripts -->
+
+    <!-- <script src="./api/adblock/tkt.js">AdBlock</script> -->
+
+    <script src="./assets/js/api.call.js"></script>
+
+    <!-- Gsap -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+
+</body>
+</html>
